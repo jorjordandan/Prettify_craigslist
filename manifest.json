@@ -1,0 +1,28 @@
+{
+  "name": "Prettify Craigslist",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "This extension was built by Jordan Davis",
+  "homepage_url": "http://jordandavis.ca",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "permissions": [
+    "http://*.craigslist.ca/*",
+    "http://*.craigslist.org/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*.craigslist.ca/*",
+        "http://*.craigslist.org/*"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ]
+    }
+  ]
+}

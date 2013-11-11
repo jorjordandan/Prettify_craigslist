@@ -1,0 +1,522 @@
+
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,500,600,700);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    font-family: Cabin !important;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+width: 100%;
+}
+
+section.body {
+padding-top: 0px !important;
+}
+
+section.body {
+padding: 0 0px 0em !important;
+width: 100% !important;
+margin: 0 auto;
+height: 90%;
+min-height: 600px;
+}
+
+section.body a:hover{
+
+background:transparent; 
+}
+
+.homepage #leftbar li:hover,
+.homepage #leftbar a:hover,
+.homepage #rightbar ul.acitem > li > a:hover { background: transparent !important; }
+
+.span{
+font-family:Cabin !important;
+}
+
+.crumb a{
+    font-family: Cabin !important;
+    color:#777;
+}
+
+.posterpicker {
+background-color: #fff;
+padding: 1px 4px;
+background-color: #fff !important;
+border: none !important ;
+
+}
+
+.posterpicker b{
+    font-family:Cabin;
+    font-weight: 400;
+    font-size: 100% !important;
+    color: #888;
+}
+
+.posterpicker a{
+    font-family:Cabin;
+    font-weight: 400;
+    font-size: 100%;
+    color: #888;
+}
+
+#searchfieldset {
+border: 1px solid #ccc;
+padding: 5px;
+margin: auto;
+background: #fbfbfb !important;
+}
+.toc_legend {
+  top: -2em !important;
+}
+.toc_legend .buttongroup {
+background-color: #fff;
+height: 100%;
+border: none !important;
+font-family: Cabin;
+display: inline-block;
+}
+
+.toc_legend .buttongroup  a{
+color: #888;
+}
+
+.toc .row {
+
+    padding: 20px  10px  25px 0px !important; 
+    margin: 0px 0px 0px 0px !important;
+    border-bottom: 1px solid #eee;
+}
+
+.toc a{
+    font-family: Cabin;
+    text-transform: capitalize;
+    color:#47a !important;
+}
+
+.row .date{
+font-family:Cabin !important;
+
+}
+
+.toc.pic .row .i {
+border: 1px solid #eee;
+padding: 3px;
+float: left;
+width: 56px;
+height: 56px;
+display: inline;
+}
+
+#toc_rows .content {
+padding: 1em 12% 0 12% !important;
+margin-top: 33px !important;
+
+}
+
+.toc.grid #toc_rows .row {
+width: 302px;
+height: 290px;
+margin: 0 42px 16px 0 !important;
+border: 1px solid #fff;
+line-height: 1.3em;
+overflow: hidden;
+white-space: normal;
+display: inline-block;
+vertical-align: top;
+position: relative;
+zoom: 1;
+}
+
+
+#pagecontainer {
+ margin: 0px 12% 0px 12% ;
+
+}
+#toc_rows .ban {
+  margin-top: 0px !important;
+   margin-bottom: 0px !important;
+    line-height:50px !important;
+}
+.toc_legend.bottom {
+border: none !important;
+background: transparent !important;
+}
+#toc_rows .ban .bantext {
+font-family:Cabin !important;
+font-size:120% !important;
+color: #888;
+
+
+}
+.toc .l2 .price{
+    font-family: Cabin;
+    font-weight:700 !important;
+    padding: 5px !important;
+}
+
+.sites .colmask {
+overflow: hidden;
+margin-left: 40px !important;
+}
+
+.sites h1 {
+    border-bottom: 3px solid #333 !important;
+    margin: 40px !important;
+
+}
+
+td b{
+    font-size: 100% !important;
+    color: #888 !important;
+}
+
+
+
+
+.sites .box ul {
+    padding-left: none !important;
+    border: none !important;
+}
+.sites .colmask a {
+color: #47a !important;
+padding: 3px !important;
+}
+.sites a {
+color: #47a !important;
+}
+.sites .colmask a:hover {
+color: #333;
+}
+
+
+.sites h4{
+font-size:140% !important;
+font-weight:700 !important;
+border-bottom:1px solid #ccc !important;
+}
+
+.toc #searchtable .searchgroup {
+font-family: Cabin !important;
+}
+
+.toc #searchtable input {
+font-family: Cabin !important;
+font-size: 100%;
+}
+
+.toc.list .row .pnr small {
+font-family: Cabin !important;
+white-space: nowrap;
+}
+
+.sites #logo{
+    font-size: 50px !important;
+    color: #47a;
+}
+.homepage #topban .sublinks a{
+color: #ccc !important;
+font-size: 72%;
+}
+
+.tabcontainer b, .tabcontainer a {
+padding: 3px;
+border-radius: 0.7em 0.7em 0 0;
+-moz-border-radius: 0.7em 0.7em 0 0;
+-webkit-border-radius: 0.7em 0.7em 0 0;
+border: none !important;
+white-space: nowrap;
+margin: auto 2px;
+height: 25px;
+}
+
+
+span .px{
+    font-family:Cabin;
+}
+
+.toc .gc{
+    background:#fff !important;
+    color: #ccc !important;
+}
+
+.toc .paginator .prev{
+    font-family: Cabin;
+}
+
+.toc .paginator .pagenum {
+font-family: Cabin;
+color: #555;
+white-space: nowrap;
+width: 160px;
+padding: 0;
+}
+#searchtable {
+background: #fbfbfb !important;
+font-family: sans-serif;
+padding: 3px 0 0 10px;
+}
+
+#toc_rows {
+    border: none !important;
+    margin-top: 54px !important
+}
+.toc_legend .buttongroup .button:last-child {
+    font-family: Cabin;
+}
+
+#pagecontainer > header{
+    background:transparent !important;
+    border:none !important;
+}
+#postlks {
+margin: 0px 0 !important;
+width: 100%;
+display: inline-block;
+}
+
+
+
+strong, b {
+font-weight: 700 !important;
+font-size: 150% !important;
+padding: 2px;
+margin-bottom: 30px;
+}
+
+
+.homepage #logo a{
+font-family: Cabin;
+font-weight:400;
+font-size: 200% !important;
+line-height: 135%;
+font-weight: 700;
+color: #fff !important;
+width: 100%;
+}
+
+
+.homepage .leftlinks {
+margin-top: 2em;
+display: block;
+}
+
+.homepage #leftbar {
+font-family: Cabin;
+font-weight:400;
+background: #fff !important;
+padding: 10px !important;
+color: #000 !important;
+border:none !important;
+text-align: center;
+}
+
+
+.homepage #main td:first {
+width: 20%;
+padding: 0 10px;
+}
+
+.homepage #main td {
+width: 40%;
+padding: 0 10px;
+margin-right: 5px !important;
+}
+
+#sss0{
+    width:60%;
+}
+
+#ccc0{
+    width:60%;
+}
+
+#ccc1{
+    width:100%;
+}
+#main td {
+padding: 0 0px !important;
+}
+.homepage #topban h2 {
+display: inline;
+font-family: Cabin;
+font-size: 1.5em;
+line-height: 1.2em;
+}
+
+.homepage div#forums ul{
+
+    width:40%;
+}
+
+#fmtsel {
+    position:relative !important;
+}
+.homepage #topban h2{
+font-family: Cabin !important;
+height: 2em;
+margin: 0 0px 1em;
+padding: 8px;
+font-weight: normal;
+}
+
+
+.homepage .col ul li a {
+font-size: 110%;
+Font-family: Cabin;
+color: #47a;
+padding: 4px !important;
+position: relative;
+width: 100%;
+display: block;
+padding: 0 0 1px 0;
+border-bottom: none !important;
+}
+
+.homepage #topban{
+font-family: Cabin !important;
+font-size: 140%;
+height: 2em;
+background:#fff !important;
+margin: 0 0px 1em !important;
+padding: 14px 0px 0px 0px !important;
+font-weight: normal;
+text-align: left;
+border-bottom: 3px solid #666;
+}
+
+#leftbar li, .homepage #leftbar a {
+font-family: Cabin;
+font-weight:400;
+padding: 3px !important;
+color: #000 !important;
+border:none !important;
+text-align: center;
+}
+
+#leftbar li, .homepage #leftbar a:hover {
+background: transparent;
+color:#aaa;
+}
+
+.homepage #search div {
+text-align: left !important;
+color: #aaa !important;
+}
+
+.homepage #search #query {
+width: 100% !important;
+font-size: 20px !important;
+}
+
+.select-style {
+    border: 1px solid #ccc;
+    width: 120px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #fafafa url("img/icon-select.png") no-repeat 90% 50%;
+}
+
+.homepage #rightbar h5.hot:hover { background: transparent; }
+.select-style select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+}
+
+.select-style select:focus {
+    outline: none;
+}
+
+
+.homepage .col h4 {
+margin-bottom: 8px;
+font-family: Cabin;
+font-weight: 400 !important;
+color:#333 !important;
+background: transparent;
+text-align: left;
+font-size: 140%;
+margin-right: 15px !important ;
+}
+
+
+
+
+.homepage table.cal {
+background: #F8F7F7;
+width: 75%;
+}
+
+
+.homepage #rightbar {
+
+display: none;
+}
+
+
+ul {
+
+font-size: smaller;
+list-style: none;
+font-family: Cabin;
+color: #666;
+}
+
+
+.homepage .ban a {
+display: block;
+padding: 0 px !important;
+color: #333 ;
+text-transform: capitalize;
+}
+
+#toc_rows .ban {
+text-align: left !important;
+background-color: #fff !important;
+border:none !important; 
+}
+
+.ban .bantext {
+background-color: #fff;
+padding: 0px !important;
+font-weight: normal;
+font-family: Cabin !important;
+border:none !important;
+font-size: .95em;
+color: #333 !important;
+}
+
+
+.ban {
+font-family:Cabin; 
+text-align: center;
+font-weight: bold;
+text-transform: capitalize;
+border-top:none !important;
+padding: 0px !important;
+clear: both;
+background-color: #eee;
+}
+
+.toc #catAbb,
+.toc #catAbbUI,
+.toc #hoodtitle,
+.toc #searchtable label,
+.toc #searchtable select,
+.toc #searchtable input {
+    font-family: Cabin !important;
+    font-size: 100%;
+    padding: 3px !important;
+}
+
+
+legend {
+    font-size: 100% !important;
+    font-family:Cabin !important;
+}
